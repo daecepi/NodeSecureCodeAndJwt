@@ -1,0 +1,22 @@
+{
+  "name": "nodesecurecodeandjwt",
+  "version": "1.0.0",
+  "description": "Simple practice from a jobsity's company school that is focused securing of endpoints more specifically with NodeJS technology centered on the only on the backend for simplicity, since it was not part of the challenges (won't serve any frontend app or static files).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "Endpoints",
+    "Jwt",
+    "backend"
+  ],
+  "author": "David Eduardo Cermeño Pinzòn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
